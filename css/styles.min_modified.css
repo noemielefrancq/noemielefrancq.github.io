@@ -197,7 +197,7 @@ a:hover{
     padding:30px 0 35px
 }
 #head img{
-  display:block;
+    display:block;
     width:140px;
     height:140px;
     overflow:hidden;
@@ -215,17 +215,15 @@ a:hover{
 }
 #head .title{
     font-family:Alice,Georgia,serif;
-    font-size:49px;
-    font-size:3.0625rem}
+    font-size:3rem}
 #head .title a{
     text-decoration:none;
     color:#333
 }
 #head .tagline{
     display:block;
-    font-size:14px;
-    font-size:.875rem;
-    line-height:1.2em;
+    font-size:1.2rem;
+    line-height:1.4em;
     color:#7c7c7c;
     margin:5px 0 0
 }
@@ -239,15 +237,28 @@ a:hover{
     padding:90px 0
 }
 .home #head .title{
-    font-size:49px;
-    font-size:3.0625rem
+    font-size:3rem
+}
+#head .follow {
+  font-family: Alice,Georgia,serif;
+  font-size: 3rem;
+}
+#head .follow a {
+  text-decoration:none;
+  color: #333333;
+}
+.home #head .follow {
+  font-size: 2.5rem;
 }
 .home #head .tagline{
     font-size:16px;
     font-size:1rem;
     margin:15px 0 0
 }
-img{max-width:100%}.btn{
+img{
+    max-width:100%
+}
+.btn{
     font-size:12px;
     font-size:.75rem;
     text-decoration:none;
@@ -271,22 +282,29 @@ img{max-width:100%}.btn{
     transition-duration:.2s;
     border:0;
     padding:12px 35px;
-    text-shadow:0 1px 0 #780d33
+    text-shadow:0 1px 0 #0A6E39
 }
 .btn-primary{
     color:#fff;
     background-color:#178C4E
 }
-.btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active{
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active{
     color:#fff;
-    background-color:#e61f65
+    background-color:#75D3A1
 }
-.btn-action{font-weight:700;
+.btn-action{
+    font-weight:700;
     background:0 0!important;
     border:1px solid #333;
     text-shadow:none
 }
-.btn-action:hover,.btn-action:focus,.btn-action:active,.btn-action.active{
+.btn-action:hover,
+.btn-action:focus,
+.btn-action:active,
+.btn-action.active{
     color:#178C4E;
     border-color:#178C4E
 }
@@ -304,12 +322,18 @@ img{max-width:100%}.btn{
     -moz-background-clip:padding;
     border-radius:0;
     background-clip:padding-box
-}.panel-cta p,.panel-cta h3,.panel-cta h4,.panel-cta h5,.panel-cta h6{
+}
+.panel-cta p,
+.panel-cta h3,
+.panel-cta h4,
+.panel-cta h5,
+.panel-cta h6{
     margin:0
 }
 .panel-cta .panel-body{
     padding:35px
-}.featured{
+}
+.featured{
     font-size:13px;
     font-size:.8125rem
 }
@@ -349,23 +373,23 @@ img{max-width:100%}.btn{
     padding:0;
     text-align:center;
     text-decoration:none;
-    color:#333
+    color:#333;
+    height: 350px
 }
 .thumbnail .img{
     display:block;
     width:100%;
     overflow:hidden;
-    height:180px;
+    height:250px;
     margin:0 0 20px;
     position:relative
 }
 @media only screen and (max-width:768px){
-    .thumbnail .img{width:calc(100% + 30px);
-        height:280px;
+.thumbnail .img{width:calc(100%);
+        height:250px;
         margin-left:-15px}
 }
 .thumbnail .title{
-    text-transform:uppercase;
     margin:0 2em;
     display:block;
     text-indent:0}
@@ -374,7 +398,7 @@ img{max-width:100%}.btn{
     display:block;
     opacity:0;
     width:100%;
-    height:180px;
+    height:250px;
     background-color:rgba(255,255,255,.8);
     -webkit-transition-property:all;
     -moz-transition-property:all;
@@ -387,7 +411,7 @@ img{max-width:100%}.btn{
     transition-duration:550ms
 }
 @media only screen and (max-width:768px){
-    .thumbnail .cover{height:280px}
+    .thumbnail .cover{height:250px}
 }
 .thumbnail .cover .more{
     position:absolute;
@@ -405,7 +429,7 @@ img{max-width:100%}.btn{
     font-size:12px;
     font-size:.75rem;
     text-transform:uppercase;
-    text-shadow:0 1px 0 #780d33;
+    text-shadow:0 1px 0 #0A6E39;
     background:#178C4E;
     color:#fff
 }
@@ -444,7 +468,8 @@ img{max-width:100%}.btn{
     color:#000;
     background:0 0
 }
-.section-title,.entry-title{
+.section-title,
+.entry-title{
     display:block;
     width:100%;
     overflow:hidden;
@@ -712,7 +737,8 @@ footer.entry-meta .meta-in{
     margin:0
 }
 .follow-me-icons{
-    font-size:30px
+    font-size:30px;
+    text-align:center
 }
 .follow-me-icons i{
     padding:15px 0;
