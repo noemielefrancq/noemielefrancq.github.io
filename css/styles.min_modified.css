@@ -126,7 +126,18 @@ blockquote{
     margin:0 0 30px;
     border-left:5px solid #eee
 }
-h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6{
     font-family:open sans,Helvetica,Arial,sans-serif;
     font-weight:400;
     color:#333
@@ -155,12 +166,13 @@ a{
     color:#178C4E
 }
 a:hover{
-    color:#e93675
+    color:#75D3A1
 }
 .lead{
     font-weight:300;
     font-size:21px;
-    font-size:1.3125rem
+    font-size:1.3125rem;
+    text-align: justify
 }
 .text-msg{
     line-height:1.7em;
@@ -169,12 +181,16 @@ a:hover{
     text-transform:capitalize;
     margin-top:-.23em
 }
-.size-auto,.size-full,.size-large,.size-medium,.size-thumbnail{
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail{
     max-width:100%;
     height:auto
 }
 #head{
-    background-color:#f4f4f4;
+    background-color:#f4f4f4 url(../images/beautiful_dyanmics2.png) top center;
     background-position:50% 0;
     background-size:cover;
     color:#7c7c7c;
