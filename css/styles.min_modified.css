@@ -190,7 +190,8 @@ a:hover{
     height:auto
 }
 #head{
-    background-color:#f4f4f4 url(../images/beautiful_dyanmics2.png) top center;
+    /*background-color:#f4f4f4;*/
+    background-image: url(images/beautiful_dyanmics2.jpg) top center;
     background-position:50% 0;
     background-size:cover;
     color:#7c7c7c;
